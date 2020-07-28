@@ -72,9 +72,7 @@
               <div class="card-header">
                 <h3 class="card-title">Users Table</h3>
 
-                <div class="card-tools">
-                  <button class="btn btn-success" @click= "newModal"> Add New <i class="fa fa-user-plus fa-fw"></i></button>
-                </div>
+                
               </div>
               <!-- /.card-header -->
               <div class="card-body table-responsive p-0">

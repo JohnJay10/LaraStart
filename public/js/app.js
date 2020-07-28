@@ -2192,8 +2192,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -3444,6 +3442,10 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -8157,7 +8159,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.widget-user-header{\r\nbackground-position: center center;\r\nbackground-size: cover;\r\nheight: 600px;\n}\n.widget-user .widget-user-header{\r\n  height:350px;\n}\n.widget-user-username h2{\r\n font-family: Arial, Helvetica, sans-serif;\r\n font-weight: bold;\r\n font-size: 1.3rem;\n}\n.widget-user .widget-user-image > img {\r\n  height:200px;\r\n  width: 150px;\r\n  background-image: center;\n}\r\n", ""]);
+exports.push([module.i, "\n.widget-user-header{\r\nbackground-position: center center;\r\nbackground-size: cover;\r\nheight: 600px;\n}\n.widget-user .widget-user-header{\r\n  height:350px;\n}\n.widget-user-username h2{\r\n font-family: Arial, Helvetica, sans-serif;\r\n font-weight: bold;\r\n font-size: 1.3rem;\n}\n.widget-user .widget-user-image > img {\r\n  height:200px;\r\n  width: 150px;\r\n  background-image: center;\n}\n.widget-user .widget-user-username {\r\n  font-size: 50px;\n}\r\n", ""]);
 
 // exports
 
@@ -66046,27 +66048,11 @@ var render = function() {
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _c("h3", { staticClass: "card-title" }, [_vm._v("Users Table")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-tools" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-success",
-                    on: { click: _vm.newModal }
-                  },
-                  [
-                    _vm._v(" Add New "),
-                    _c("i", { staticClass: "fa fa-user-plus fa-fw" })
-                  ]
-                )
-              ])
-            ]),
+            _vm._m(1),
             _vm._v(" "),
             _c("div", { staticClass: "card-body table-responsive p-0" }, [
               _c("table", { staticClass: "table table-hover text-nowrap" }, [
-                _vm._m(1),
+                _vm._m(2),
                 _vm._v(" "),
                 _c(
                   "tbody",
@@ -66149,7 +66135,7 @@ var render = function() {
                     [_c("strong", [_vm._v("Update User's Info")])]
                   ),
                   _vm._v(" "),
-                  _vm._m(2)
+                  _vm._m(3)
                 ]),
                 _vm._v(" "),
                 _c(
@@ -66447,7 +66433,7 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _vm._m(3)
+      _vm._m(4)
     ])
   ])
 }
@@ -66535,6 +66521,14 @@ var staticRenderFns = [
           ])
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", { staticClass: "card-title" }, [_vm._v("Users Table")])
     ])
   },
   function() {
@@ -70029,7 +70023,22 @@ var render = function() {
     _c("div", { staticClass: "row " }, [
       _c("div", { staticClass: "col-md-12 mt-3" }, [
         _c("div", { staticClass: "card card-widget widget-user" }, [
-          _vm._m(0),
+          _c(
+            "div",
+            {
+              staticClass: "widget-user-header text-white",
+              staticStyle: { "background-image": "url('./images/bg-01.jpg')" }
+            },
+            [
+              _c("h2", { staticClass: "widget-user-username text-right" }, [
+                _vm._v(_vm._s(this.form.name))
+              ]),
+              _vm._v(" "),
+              _c("h5", { staticClass: "widget-user-desc text-right" }, [
+                _vm._v(_vm._s(this.form.type))
+              ])
+            ]
+          ),
           _vm._v(" "),
           _c("div", { staticClass: "widget-user-image" }, [
             _c("img", {
@@ -70038,15 +70047,15 @@ var render = function() {
             })
           ]),
           _vm._v(" "),
-          _vm._m(1)
+          _vm._m(0)
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card" }, [
-          _vm._m(2),
+          _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
             _c("div", { staticClass: "tab-content" }, [
-              _vm._m(3),
+              _vm._m(2),
               _vm._v(" "),
               _c(
                 "div",
@@ -70269,27 +70278,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "widget-user-header text-white",
-        staticStyle: { "background-image": "url('./images/bg-01.jpg')" }
-      },
-      [
-        _c("h2", { staticClass: "widget-user-username text-right" }, [
-          _vm._v("Jaiyeola John")
-        ]),
-        _vm._v(" "),
-        _c("h5", { staticClass: "widget-user-desc text-right" }, [
-          _vm._v("Web Designer")
-        ])
-      ]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -85655,6 +85643,9 @@ var routes = [{
 }, {
   path: '/profile',
   component: __webpack_require__(/*! ./components/profile.vue */ "./resources/js/components/profile.vue")["default"]
+}, {
+  path: '*',
+  component: __webpack_require__(/*! ./components/NotFound.vue */ "./resources/js/components/NotFound.vue")["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
   mode: 'history',
