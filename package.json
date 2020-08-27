@@ -43,8 +43,11 @@
   "name": "larastart",
   "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
   "version": "1.0.0",
-  
   "engines": {
-    "node": "13.11.0"
+    "node": "13.11.0",
+    "npm": "6.14.7"
+ 
   }
+
+ 
 }
