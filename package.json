@@ -11,7 +11,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node server.js" 
+    "start": "node server.js",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "axios": "^0.19.2",
@@ -42,6 +43,9 @@
   "name": "larastart",
   "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.x"
+  },
   "main": "webpack.mix.js",
   "directories": {
     "test": "tests"
