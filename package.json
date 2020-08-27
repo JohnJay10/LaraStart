@@ -43,21 +43,8 @@
   "name": "larastart",
   "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
   "version": "1.0.0",
-  "main": "webpack.mix.js",
-  "directories": {
-    "test": "tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JohnJay10/LaraStart.git"
-  },
-  "keywords": [
-    "heroku"
-  ],
-  "author": "john",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JohnJay10/LaraStart/issues"
-  },
-  "homepage": "https://github.com/JohnJay10/LaraStart#readme"
+  
+  "engines": {
+    "node": "13.11.0"
+  }
 }
