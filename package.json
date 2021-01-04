@@ -8,11 +8,8 @@
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node server.js",
-    "postinstall": "npm run prod"
+    "postinstall": "npm run prod",
+    "start": "node server.js"
   },
   "devDependencies": {
     "axios": "^0.19.2",
@@ -46,5 +43,19 @@
   "engines": {
     "node": "13.11.0",
     "npm": "6.13.7"
-  }
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnJay10/LaraStart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnJay10/LaraStart/issues"
+  },
+  "homepage": "https://github.com/JohnJay10/LaraStart#readme"
 }
